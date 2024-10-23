@@ -18,29 +18,23 @@ function Resume() {
           <div className="carousel-inner">
             <div className="carousel-item active">
             {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
-            <div className="card bg-dark text-light d-none d-md-block">
-              <div className=" card-body">
+            <div className="card bg-dark text-light d-none d-md-block m-5 p-5">
                 <h5 className="card-title">First slide label</h5>
                 <p className="card-text">Some representative placeholder content for the first slide.</p>
-              </div>
             </div>
           </div>
           <div className="carousel-item">
             {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
-            <div className="card bg-dark text-light d-none d-md-block">
-              <div className=" card-body">
+            <div className="card bg-dark text-light d-none d-md-block m-5 p-5">
               <h5 className="card-title">Second slide label</h5>
               <p className="card-text">Some representative placeholder content for the second slide.</p>
-              </div>
             </div>
           </div>
           <div className="carousel-item">
             {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
-            <div className="card bg-dark text-light d-none d-md-block">
-              <div className=" card-body">
+            <div className="card bg-dark text-light d-none d-md-block m-5 p-5">
                 <h5 className="card-title">Third slide label</h5>
                 <p className="card-text">Some representative placeholder content for the third slide.</p>
-              </div>
             </div>
           </div>
           {/*<button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
