@@ -1,5 +1,4 @@
 import { useState } from "react"
-import slide from './assets/black.jpg'
 function Resume() {
 
     return(
