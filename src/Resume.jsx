@@ -16,7 +16,7 @@ function Resume() {
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active w-50">
+    <div className="carousel-item active">
       {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
       <div className="card bg-transparent text-light d-none d-md-block">
         <div className="ms-5 ps-5">
@@ -25,7 +25,7 @@ function Resume() {
         </div>
       </div>
     </div>
-    <div className="carousel-item w-50">
+    <div className="carousel-item">
       {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
       <div className="card bg-transparent text-light d-none d-md-block">
         <div className="ms-5 ps-5">
@@ -34,7 +34,7 @@ function Resume() {
         </div>
       </div>
     </div>
-    <div className="carousel-item w-50">
+    <div className="carousel-item">
       {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
       <div className="card bg-transparent text-light d-none d-md-block">
       <div className="ms-5 ps-5">
