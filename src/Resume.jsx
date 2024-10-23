@@ -18,8 +18,8 @@ function Resume() {
   <div className="carousel-inner">
     <div className="carousel-item active">
       {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
-      <div className="card bg-transparent text-light d-none d-md-block">
-        <div className="ms-5 ps-5">
+      <div className="card bg-dark text-light d-none d-md-block">
+        <div className=" card-body ms-5 ps-5">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
         </div>
@@ -27,8 +27,8 @@ function Resume() {
     </div>
     <div className="carousel-item">
       {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
-      <div className="card bg-transparent text-light d-none d-md-block">
-        <div className="ms-5 ps-5">
+      <div className="card bg-dark text-light d-none d-md-block">
+        <div className=" card-body ms-5 ps-5">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
         </div>
@@ -36,8 +36,8 @@ function Resume() {
     </div>
     <div className="carousel-item">
       {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
-      <div className="card bg-transparent text-light d-none d-md-block">
-      <div className="ms-5 ps-5">
+      <div className="card bg-dark text-light d-none d-md-block">
+      <div className=" card-body ms-5 ps-5">
       <h5>Third slide label</h5>
       <p>Some representative placeholder content for the third slide.</p>
       </div>
