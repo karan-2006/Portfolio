@@ -1,5 +1,5 @@
 import { useState } from "react"
-import profilePic from './assets/Profile.jpg'
+import slide from './assets/black.jpg'
 function Resume() {
 
     return(
@@ -18,34 +18,47 @@ function Resume() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active w-50">
-      <img src={profilePic} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
+      <div className="card bg-transparent text-light d-none d-md-block">
+        <div className="ms-5 ps-5">
+        <div className="container">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
+        </div>
+        </div>
       </div>
     </div>
     <div className="carousel-item w-50">
-      <img src={profilePic} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
+      {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
+      <div className="card bg-transparent text-light d-none d-md-block">
+        <div className="ms-5 ps-5">
+        <div className="container">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
+        </div>
+        </div>
       </div>
     </div>
     <div className="carousel-item w-50">
-      <img src={profilePic} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>
-      <div className="carousel-caption d-none d-md-block">
-        
+      {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
+      <div className="card bg-transparent text-light d-none d-md-block">
+      <div className="ms-5 ps-5">
+      <div className="container">
+      <h5>Third slide label</h5>
+      <p>Some representative placeholder content for the third slide.</p>
+      </div>
+      </div>
       </div>
     </div>
   </div>
-  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+  {/*<button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Previous</span>
   </button>
   <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
-  </button>
+  </button>*/}
 </div>
       </div>
     )
