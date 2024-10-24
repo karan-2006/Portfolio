@@ -9,6 +9,7 @@ function Resume() {
         <h6 className="display-6 text-secondary">Lorem ipsum dolor sit amet</h6>
         <hr className="w-25"/>
         </center>
+        <h4 className="border border-light d-inline-block p-2">EDUCATION</h4>
         <div id="carouselExampleCaptions" className="carousel carousel-dark slide" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -45,6 +46,32 @@ function Resume() {
           </div>
           
         </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <h4 className="border border-light d-inline-block p-2">MY SKILLS</h4>
+            <div className="row">
+              <div className="col">
+
+              </div>
+              <div className="col">
+
+              </div>
+            </div>
+
+          </div>
+          <div className="col">
+            <h4 className="border border-light d-inline-block p-2">FUN FACTS</h4>
+            <div className="row">
+              <div className="col">
+
+              </div>
+              <div className="col">
+
+              </div>
+            </div>
+
+          </div>
         </div>
       </div>
       </>
