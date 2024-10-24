@@ -20,7 +20,7 @@ function Resume() {
             {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
             <div className="card bg-dark text-light d-none d-md-block m-5 p-5">
                 <h4 classname="card-title">2016-2017</h4>
-                <h5 className="card-title">SSLC - School</h5>
+                <h5 className="card-title">SSLC - AVICHI Higher Seondary School</h5>
                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  sed do <br /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
@@ -29,7 +29,7 @@ function Resume() {
             {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
             <div className="card bg-dark text-light d-none d-md-block m-5 p-5">
               <h4 className="card-title">2018-2019</h4>
-              <h5 className="card-title">HSC - School</h5>
+              <h5 className="card-title">HSC - AVICHI Higher Seondary School</h5>
               <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  sed do <br /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
@@ -38,7 +38,7 @@ function Resume() {
             {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
             <div className="card bg-dark text-light d-none d-md-block m-5 p-5">
                 <h4 className="car-title">2019-2023</h4>
-                <h5 className="card-title">B.E - College</h5>
+                <h5 className="card-title">B.E - DMI College of Engineering</h5>
                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  sed do <br /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
