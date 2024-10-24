@@ -36,7 +36,7 @@ function Resume() {
             </div>
           </div>
           <div className="carousel-item">
-            
+
             <div className="card bg-secondary bg-gradient text-light d-none d-md-block m-5 p-5">
                 <h4 className="car-title text-info">2019-2023</h4>
                 <h5 className="card-title">B.E - DMI College of Engineering</h5>
@@ -44,9 +44,9 @@ function Resume() {
                  sed do <br /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
-          
         </div>
         </div>
+
         <div className="row">
           <div className="col">
             <h4 className="border border-light d-inline-block p-2">MY SKILLS</h4>
@@ -64,19 +64,63 @@ function Resume() {
                 <li className="py-2">EXPRESS JS</li>
               </div>
             </div>
-
           </div>
           <div className="col">
             <h4 className="border border-light d-inline-block p-2">FUN FACTS</h4>
-            <div className="row">
-              <div className="col">
-                
+            <div className="row py-2">
+              <div className="col-6 py-2">
+                <nav aria-label="...">
+                  <ul class="pagination pagination-lg">
+                    <li class="page-item p-3">
+                      <img src="" alt="..."/>
+                    </li>
+                    <li class="page-item p-3">
+                      <h5>0</h5>
+                      <p>Happy Clients</p>
+                    </li>
+                  </ul>
+                </nav>
               </div>
-              <div className="col">
-                
+              <div className="col-6 py-2">
+              <nav aria-label="...">
+                  <ul class="pagination pagination-lg">
+                    <li class="page-item p-3">
+                      <img src="" alt="..." />
+                    </li>
+                    <li class="page-item p-3">
+                      <h5>0</h5>
+                      <p>Awards Achieved</p>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div className="col-6 py-2">
+              <nav aria-label="...">
+                  <ul class="pagination pagination-lg">
+                    <li class="page-item p-3">
+                      <img src="" alt="..." />
+                    </li>
+                    <li class="page-item p-3">
+                      <h5>0</h5>
+                      <p>Projects Done</p>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div className="col-6 py-2">
+              <nav aria-label="...">
+                  <ul class="pagination pagination-lg">
+                    <li class="page-item p-3">
+                      <img src="" alt="..." />
+                    </li>
+                    <li class="page-item p-3">
+                      <h5>0</h5>
+                      <p>User Rattings</p>
+                    </li>
+                  </ul>
+                </nav>
               </div>
             </div>
-
           </div>
         </div>
       </div>
