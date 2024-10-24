@@ -10,7 +10,9 @@ function Footer(){
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br />
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br />
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <h5>Social Media Icons</h5>
+                <h5>
+                    Social media icons
+                </h5>
                 <hr />
                 </blockquote>
                 <h6>Copyright &copy; MyPortfolio. All rights reserved</h6>

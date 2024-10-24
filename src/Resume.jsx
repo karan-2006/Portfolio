@@ -71,10 +71,10 @@ function Resume() {
               <div className="col-6 py-2">
                 <nav aria-label="...">
                   <ul class="pagination pagination-lg">
-                    <li class="page-item p-3">
+                    <li class="page-item p-3 border border-light">
                       <img src="" alt="..."/>
                     </li>
-                    <li class="page-item p-3">
+                    <li class="page-item p-3 border border-light">
                       <h5>0</h5>
                       <p>Happy Clients</p>
                     </li>
@@ -84,10 +84,10 @@ function Resume() {
               <div className="col-6 py-2">
               <nav aria-label="...">
                   <ul class="pagination pagination-lg">
-                    <li class="page-item p-3">
+                    <li class="page-item p-3 border border-light">
                       <img src="" alt="..." />
                     </li>
-                    <li class="page-item p-3">
+                    <li class="page-item p-3 border border-light">
                       <h5>0</h5>
                       <p>Awards Achieved</p>
                     </li>
@@ -97,10 +97,10 @@ function Resume() {
               <div className="col-6 py-2">
               <nav aria-label="...">
                   <ul class="pagination pagination-lg">
-                    <li class="page-item p-3">
+                    <li class="page-item p-3 border border-light">
                       <img src="" alt="..." />
                     </li>
-                    <li class="page-item p-3">
+                    <li class="page-item p-3 border border-light">
                       <h5>0</h5>
                       <p>Projects Done</p>
                     </li>
@@ -110,12 +110,12 @@ function Resume() {
               <div className="col-6 py-2">
               <nav aria-label="...">
                   <ul class="pagination pagination-lg">
-                    <li class="page-item p-3">
+                    <li class="page-item p-3 border border-light">
                       <img src="" alt="..." />
                     </li>
-                    <li class="page-item p-3">
+                    <li class="page-item p-3 border border-light">
                       <h5>0</h5>
-                      <p>User Rattings</p>
+                      <p className="pe-4">User Rattings</p>
                     </li>
                   </ul>
                 </nav>
