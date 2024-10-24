@@ -51,11 +51,17 @@ function Resume() {
           <div className="col">
             <h4 className="border border-light d-inline-block p-2">MY SKILLS</h4>
             <div className="row">
-              <div className="col">
-
+              <div className="col py-2 list-unstyled">
+                <li className="py-2">HTML</li>
+                <li className="py-2">BOOTSTRAP</li>
+                <li className="py-2">PYTHON</li>
+                <li className="py-2">NODE JS</li>
               </div>
-              <div className="col">
-
+              <div className="col py-2 list-unstyled">
+                <li className="py-2">CSS</li>
+                <li className="py-2">JAVASCRIPT</li>
+                <li className="py-2">DJANGO</li>
+                <li className="py-2">EXPRESS JS</li>
               </div>
             </div>
 
@@ -64,10 +70,10 @@ function Resume() {
             <h4 className="border border-light d-inline-block p-2">FUN FACTS</h4>
             <div className="row">
               <div className="col">
-
+                
               </div>
               <div className="col">
-
+                
               </div>
             </div>
 
