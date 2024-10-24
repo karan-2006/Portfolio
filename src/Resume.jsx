@@ -22,7 +22,7 @@ function Resume() {
                 <h4 classname="card-title">2016-2017</h4>
                 <h5 className="card-title">SSLC - School</h5>
                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                 sed do <hr /> eiusmod tempor incididunt ut labore et dolore magna</p>
+                 sed do <br /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
           <div className="carousel-item">
@@ -31,7 +31,7 @@ function Resume() {
               <h4 className="card-title">2018-2019</h4>
               <h5 className="card-title">HSC - School</h5>
               <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                 sed do <hr /> eiusmod tempor incididunt ut labore et dolore magna</p>
+                 sed do <br /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
           <div className="carousel-item">
@@ -40,7 +40,7 @@ function Resume() {
                 <h4 className="car-title">2019-2023</h4>
                 <h5 className="card-title">B.E - College</h5>
                 <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                 sed do <hr /> eiusmod tempor incididunt ut labore et dolore magna</p>
+                 sed do <br /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
           {/*<button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
