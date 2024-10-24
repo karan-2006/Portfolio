@@ -28,7 +28,7 @@ function Contact() {
                     </div>
                     <div className="row py-3">
                       <div className="col">
-                        <button className="btn btn-outline-light" type="submit">Download CV</button>
+                        <button className="btn btn-outline-light" type="submit">Contact Now</button>
                       </div>
                     </div>
                     <div className="row py-3">
