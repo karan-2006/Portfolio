@@ -6,6 +6,7 @@ function Services() {
                 <h3 className='display-3 text-primary'>My Services</h3>
                 <h6 className="display-6 text-secondary">Lorem ipsum dolor sit amet</h6>
                 <hr className='w-25' />
+            <div className="container">
             <div className="row py-3">
                 <div className="col-6 py-3">
                 <div className="card border-light bg-transparent text-light">
@@ -51,6 +52,7 @@ function Services() {
                     </center>
                 </div>
                 </div>
+            </div>
             </div>
             </center>
         </div>

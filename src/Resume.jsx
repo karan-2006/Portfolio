@@ -1,5 +1,22 @@
-import { useState } from "react"
+import React, { useState, useEffect } from 'react';
+
 function Resume() {
+
+      const [clients, setClients] = useState(0);
+      const [awards, setAwards] = useState(0);
+      const [projects, setProjects] = useState(0);
+      const [ratings, setRatings] = useState(0);
+
+      useEffect(() => {
+        const interval = setInterval(() => {
+          if (clients < 500) setClients(clients + 1);
+          if (awards < 100) setAwards(awards + 1);
+          if (projects < 200) setProjects(projects + 1);
+          if (ratings < 500) setRatings(ratings + 1);
+        }, 0.01);
+
+        return () => clearInterval(interval);
+      }, [clients, awards, projects, ratings]);
 
     return(
         <>
@@ -75,7 +92,7 @@ function Resume() {
                       <img src="" alt="..."/>
                     </li>
                     <li class="page-item p-3 border border-light">
-                      <h5>0</h5>
+                      <h5>{clients}</h5>
                       <p>Happy Clients</p>
                     </li>
                   </ul>
@@ -88,7 +105,7 @@ function Resume() {
                       <img src="" alt="..." />
                     </li>
                     <li class="page-item p-3 border border-light">
-                      <h5>0</h5>
+                      <h5>{awards}</h5>
                       <p>Awards Achieved</p>
                     </li>
                   </ul>
@@ -101,7 +118,7 @@ function Resume() {
                       <img src="" alt="..." />
                     </li>
                     <li class="page-item p-3 border border-light">
-                      <h5>0</h5>
+                      <h5>{projects}</h5>
                       <p>Projects Done</p>
                     </li>
                   </ul>
@@ -114,7 +131,7 @@ function Resume() {
                       <img src="" alt="..." />
                     </li>
                     <li class="page-item p-3 border border-light">
-                      <h5>0</h5>
+                      <h5>{ratings}</h5>
                       <p className="pe-4">User Rattings</p>
                     </li>
                   </ul>
