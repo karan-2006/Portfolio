@@ -7,6 +7,7 @@ function Contact() {
                 <h3 className='display-3 text-primary'>Get in touch</h3>
                 <h6 className="display-6 text-secondary">Feel free to drop me a line - Contact me</h6>
                 <hr className='w-25' />
+                <div className="container">
                 <form action="">
                     <div className="row py-3">
                       <div className="col">
@@ -31,6 +32,8 @@ function Contact() {
                         <button className="btn btn-outline-light" type="submit">Contact Now</button>
                       </div>
                     </div>
+                </form>
+                </div>
                     <div className="row py-3">
                       <div className="col">
                       <div class="card border-light bg-transparent text-light">
@@ -63,9 +66,6 @@ function Contact() {
                       </div>
                       </div>
                     </div>
-                    
-                    
-                </form>
             </center>
         </div>
         </>

@@ -47,7 +47,7 @@ function Resume() {
         </div>
         </div>
 
-        <div className="row">
+        <div className="row py-5">
           <div className="col">
             <h4 className="border border-light d-inline-block p-2">MY SKILLS</h4>
             <div className="row">
