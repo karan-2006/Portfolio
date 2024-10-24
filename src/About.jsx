@@ -15,12 +15,12 @@ function About() {
         <div className="col-6">
         <h3 className='display-3 pt-3'>I'm Karan Kumar</h3>
         <blockquote>
-          <p className='py-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda, voluptas nostrum
-             <br /> quasi eaque modi voluptatibus sed enim rem? Itaque veritatis eligendi, magnam doloremque
-              vitae <br /> temporibus quae error odit.</p>
-          <p className='pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sapiente illo, atque animi
-             repellat <br /> blanditiis quisquam possimus repellendus! Temporibus ipsa ullam, ipsam delectus
-              voluptatibus iure <br /> maiores laudantium doloremque!</p>
+          <p className='py-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda,
+             voluptas nostrum quasi eaque modi voluptatibus sed enim rem? Itaque veritatis eligendi, magnam
+              doloremque vitae temporibus quae error odit.</p>
+          <p className='pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sapiente illo,
+             atque animi repellat blanditiis quisquam possimus repellendus! Temporibus ipsa ullam, ipsam
+              delectus voluptatibus iure maiores laudantium doloremque!</p>
         </blockquote>
         <blockquote>
           <div className="row list-unstyled">
