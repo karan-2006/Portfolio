@@ -10,41 +10,47 @@ function Resume() {
         <hr className="w-25"/>
         </center>
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
-          <div className="carousel-indicators">
+          {/*<div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
+          </div>*/}
           <div className="carousel-inner">
             <div className="carousel-item active">
             {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
             <div className="card bg-dark text-light d-none d-md-block m-5 p-5">
-                <h5 className="card-title">First slide label</h5>
-                <p className="card-text">Some representative placeholder content for the first slide.</p>
+                <h4 classname="card-title">2016-2017</h4>
+                <h5 className="card-title">SSLC - School</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do <hr /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
           <div className="carousel-item">
             {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
             <div className="card bg-dark text-light d-none d-md-block m-5 p-5">
-              <h5 className="card-title">Second slide label</h5>
-              <p className="card-text">Some representative placeholder content for the second slide.</p>
+              <h4 className="card-title">2018-2019</h4>
+              <h5 className="card-title">HSC - School</h5>
+              <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do <hr /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
           <div className="carousel-item">
             {/*<img src={slide} className="d-block" style={{width:"100%",height:"300px"}} alt="..."/>*/}
             <div className="card bg-dark text-light d-none d-md-block m-5 p-5">
-                <h5 className="card-title">Third slide label</h5>
-                <p className="card-text">Some representative placeholder content for the third slide.</p>
+                <h4 className="car-title">2019-2023</h4>
+                <h5 className="card-title">B.E - College</h5>
+                <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                 sed do <hr /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
-          <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          {/*<button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Previous</span>
           </button>
           <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
           <span className="carousel-control-next-icon" aria-hidden="true"></span>
           <span className="visually-hidden">Next</span>
-          </button>
+          </button>*/}
         </div>
         </div>
       </div>
