@@ -89,11 +89,11 @@ function Resume() {
             <div className="row py-2">
               <div className="col-6 py-2">
                 <nav aria-label="...">
-                  <ul class="pagination pagination-lg">
-                    <li class="page-item p-3 border border-light">
+                  <ul className="pagination pagination-lg">
+                    <li className="page-item p-3 border border-light">
                       <img src="" alt="..."/>
                     </li>
-                    <li class="page-item p-3 border border-light">
+                    <li className="page-item p-3 border border-light">
                       <h5>{clients}</h5>
                       <p>Happy Clients</p>
                     </li>
@@ -102,11 +102,11 @@ function Resume() {
               </div>
               <div className="col-6 py-2">
               <nav aria-label="...">
-                  <ul class="pagination pagination-lg">
-                    <li class="page-item p-3 border border-light">
+                  <ul className="pagination pagination-lg">
+                    <li className="page-item p-3 border border-light">
                       <img src="" alt="..." />
                     </li>
-                    <li class="page-item p-3 border border-light">
+                    <li className="page-item p-3 border border-light">
                       <h5>{awards}</h5>
                       <p>Awards Achieved</p>
                     </li>
@@ -115,11 +115,11 @@ function Resume() {
               </div>
               <div className="col-6 py-2">
               <nav aria-label="...">
-                  <ul class="pagination pagination-lg">
-                    <li class="page-item p-3 border border-light">
+                  <ul className="pagination pagination-lg">
+                    <li className="page-item p-3 border border-light">
                       <img src="" alt="..." />
                     </li>
-                    <li class="page-item p-3 border border-light">
+                    <li className="page-item p-3 border border-light">
                       <h5>{projects}</h5>
                       <p>Projects Done</p>
                     </li>
@@ -128,11 +128,11 @@ function Resume() {
               </div>
               <div className="col-6 py-2">
               <nav aria-label="...">
-                  <ul class="pagination pagination-lg">
-                    <li class="page-item p-3 border border-light">
+                  <ul className="pagination pagination-lg">
+                    <li className="page-item p-3 border border-light">
                       <img src="" alt="..." />
                     </li>
-                    <li class="page-item p-3 border border-light">
+                    <li className="page-item p-3 border border-light">
                       <h5>{ratings}</h5>
                       <p className="pe-4">User Rattings</p>
                     </li>

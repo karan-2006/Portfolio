@@ -8,17 +8,17 @@ function About() {
         <h6 className="display-6 text-secondary">Professional Profile - There Is All About Me</h6>
         <hr className='w-25' />
       </center>
-        <div className="row">
-        <div className="col-6">
-        <img src={profilePic} alt="building" style={{width:"100%", height:"550px"}}/>
+        <div className="row py-5">
+        <div className="col-5">
+        <img src={profilePic} alt="building" style={{width:"75%", height:"550px"}}/>
         </div>
         <div className="col-6">
-        <h3 className='display-3 pt-3'>I'm Karan Kumar</h3>
+        <h3 className='display-3'>I'm Karan Kumar</h3>
         <blockquote>
           <p className='py-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda,
              voluptas nostrum quasi eaque modi voluptatibus sed enim rem? Itaque veritatis eligendi, magnam
               doloremque vitae temporibus quae error odit.</p>
-          <p className='pb-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sapiente illo,
+          <p className='py-3'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, sapiente illo,
              atque animi repellat blanditiis quisquam possimus repellendus! Temporibus ipsa ullam, ipsam
               delectus voluptatibus iure maiores laudantium doloremque!</p>
         </blockquote>
