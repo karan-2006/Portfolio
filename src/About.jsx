@@ -1,4 +1,4 @@
-import profilePic from './assets/ProfilePic.jpg'
+import profile from './assets/ProfilePic.jpg'
 function About() {
 
   return (
@@ -10,7 +10,7 @@ function About() {
       </center>
         <div className="row">
         <div className="col-6">
-        <img src={profilePic} alt="building" style={{width:"100%", height:"550px"}}/>
+        <img src={profile} alt="building" style={{width:"100%", height:"550px"}}/>
         </div>
         <div className="col-6">
         <h3 className='display-3 pt-3'>I'm Karan Kumar</h3>
