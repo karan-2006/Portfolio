@@ -32,7 +32,7 @@ function Portfolio() {
                             <div className="modal-dialog">
                                 <div className="modal-content">
                                     <div className="modal-header">
-                                        <h1 className="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                        <h1 className="modal-title fs-5" id="exampleModalLabel">Pottery</h1>
                                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div className="modal-body">
@@ -55,21 +55,33 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="modal fade" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal bg-dark bg-opacity-25 fade w-100" id="exampleModal2" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog">
-                                <div className="modal-content">
-                                    <div className="modal-header">
-                                        <h1 className="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
-                                        <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                                    </div>
-                                    <div className="modal-body">
-                                    </div>
-                                    <div className="modal-footer">
-                                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" className="btn btn-primary">Save changes</button>
-                                    </div>
+                                <div className="modal-content bg-dark">
+                                <div className="modal-header">
+                                    <h1 className="modal-title fs-5" id="exampleModalLabel">Fighter Jet</h1>
+                                    <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
+                                <div className="row">
+                                <div className="col-1 px-3 py-5">
+                                <img className="px-1" src={waterDrop} width={100} height={200} alt="..."/>
+                                </div>
+                                <div className="col-11">
+                                    <div className="modal-body">
+                                        
+                                        <p className='modal-text px-5 py-5'>Lorem Ipsum is simply dummy text
+                                              of the printing and typesetting industry. Lorem Ipsum
+                                               has been the industry's standard dummy text
+                                              ever since the 1500s.</p>
+                                        
+                                        <button type="button" className="btn btn-outline-light">
+                                            <a className=' text-secondary text-decoration-none' href="">View Project</a>
+                                        </button>
+                                    </div>
+                                    </div>
+                                    </div>
                             </div>
+                        </div>
                         </div>
                         <div className="col">
                             <div className="card text-bg-dark">
