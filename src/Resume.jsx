@@ -9,11 +9,11 @@ function Resume() {
 
       useEffect(() => {
         const interval = setInterval(() => {
-          if (clients < 500) setClients(clients + 1);
-          if (awards < 100) setAwards(awards + 1);
-          if (projects < 200) setProjects(projects + 1);
-          if (ratings < 500) setRatings(ratings + 1);
-        }, 0.01);
+          if (clients < 300) setClients(clients + 1);
+          if (awards < 250) setAwards(awards + 1);
+          if (projects < 300) setProjects(projects + 1);
+          if (ratings < 150) setRatings(ratings + 1);
+        }, 40);
 
         return () => clearInterval(interval);
       }, [clients, awards, projects, ratings]);
@@ -73,12 +73,14 @@ function Resume() {
                 <li className="py-2">BOOTSTRAP</li>
                 <li className="py-2">PYTHON</li>
                 <li className="py-2">NODE JS</li>
+                <li className='py-2'>REACT JS</li>
               </div>
               <div className="col py-2 list-unstyled">
                 <li className="py-2">CSS</li>
                 <li className="py-2">JAVASCRIPT</li>
                 <li className="py-2">DJANGO</li>
                 <li className="py-2">EXPRESS JS</li>
+                <li className="py-2">MongoDB</li>
               </div>
             </div>
           </div>
