@@ -28,7 +28,7 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="modal bg-dark bg-opacity-25 fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal bg-dark bg-opacity-25 fade w-100" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog">
                                 <div className="modal-content bg-dark">
                                     <div className="modal-header">
@@ -41,11 +41,9 @@ function Portfolio() {
                                                has been the industry's standard dummy text
                                               ever since the 1500s.</p>
                                     </div>
-                                    <div className="modal-footer">
-                                        <button type="button" className="btn btn-primary">
-                                            <a className=' text-secondary text-decoration-none' href="">View Project</a>
-                                        </button>
-                                    </div>
+                                    <button type="button" className="btn btn-outline-light">
+                                        <a className=' text-secondary text-decoration-none' href="">View Project</a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +97,7 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="modal bg-dark bg-opacity-25 fade" id="exampleModal3" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal bg-dark bg-opacity-25 fade w-100" id="exampleModal3" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog">
                                 <div className="modal-content bg-dark">
                                     <div className="modal-header">
@@ -112,11 +110,9 @@ function Portfolio() {
                                                has been the industry's standard dummy text
                                               ever since the 1500s.</p>
                                     </div>
-                                    <div className="modal-footer">
-                                        <button type="button" className="btn btn-primary">
-                                            <a className=' text-secondary text-decoration-none' href="">View Project</a>
-                                        </button>
-                                    </div>
+                                    <button type="button" className="btn btn-outline-light">
+                                        <a className=' text-secondary text-decoration-none' href="">View Project</a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +127,7 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="modal bg-dark bg-opacity-25 fade" id="exampleModal4" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal bg-dark bg-opacity-25 fade w-100" id="exampleModal4" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog">
                                 <div className="modal-content bg-dark">
                                     <div className="modal-header">
@@ -144,11 +140,9 @@ function Portfolio() {
                                                has been the industry's standard dummy text
                                               ever since the 1500s.</p>
                                     </div>
-                                    <div className="modal-footer">
-                                        <button type="button" className="btn btn-primary">
+                                        <button type="button" className="btn btn-outline-light">
                                             <a className=' text-secondary text-decoration-none' href="">View Project</a>
                                         </button>
-                                    </div>
                                 </div>
                             </div>
                         </div>
