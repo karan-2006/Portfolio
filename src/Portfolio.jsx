@@ -5,6 +5,7 @@ import watDrop from './assets/Water-drop.jpg'
 
 
 function Portfolio() {
+  const [filter, setFilter] = useState('');
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
@@ -24,20 +25,28 @@ function Portfolio() {
       },
       {
         title: 'Pottery Project',
-        description: 'Designing',
+        description: 'WEBSITES',
         image: watDrop,
         link: 'https://your-project-link.com',
         content:'',
       },
       {
         title: 'Pottery Project',
-        description: 'Designing',
+        description: 'WEBSITES',
         image: watDrop,
         link: 'https://your-project-link.com',
         content:'',
       },
     // Add more projects here
   ];
+
+  const filteredProjects = projects.filter((project) =>
+    project.description.toLowerCase().includes(filter.toLowerCase())
+  );
+
+  const handleFilter = (filterValue) => {
+    setFilter(filterValue);
+  };
 
   const handleProjectClick = (project) => {
     setSelectedProject(project);
@@ -53,13 +62,21 @@ function Portfolio() {
             <h3 className="display-3 text-primary">Portfolio</h3>
             <h6 className="display-6 text-secondary">See My Works - Lorem ipsum dolor</h6>
             <hr className="w-25" />
+            <div className="container">
+                <button className="btn btn-outline-light m-5" type="button" onClick={() => handleFilter('')}>ALL</button>
+                <button className="btn btn-outline-light m-5" type="button" onClick={() => handleFilter('DESIGNING')}>DESIGNING</button>
+                <button className="btn btn-outline-light m-5" type="button" onClick={() => handleFilter('WEBSITES')}>WEBSITES</button>
+                {/* Add more filter buttons as needed */}
+            </div>
         </center>
         {/* ... button section ... */}
 
         <div className="container-fluid">
             <div className="row">
-                {projects.map((project, index) => (
-                <div className="col" key={index}>
+                
+                {/*{projects.map((project, index) => (*/} 
+                {filteredProjects.map((project, index) => (
+                <div className="col" key={project.id}>
                     <div className="card text-bg-dark" onClick={() => handleProjectClick(project)}>
                         <img src={project.image} style={{ width: '100%', height: '200px' }} className="card-img" alt={project.title} />
                         <div className="card-img-overlay bg-dark bg-opacity-75 w-75 h-75 mt-4 ms-5">
@@ -69,6 +86,7 @@ function Portfolio() {
                     </div>
                 </div>
             ))}
+            {/*}))}*/}
             </div>
         </div>
 
