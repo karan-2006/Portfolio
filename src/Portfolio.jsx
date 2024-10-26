@@ -1,7 +1,8 @@
+
 import React, { useState } from 'react';
-import proImg from './assets/Ceramics.jpg'
-import fiJet from './assets/Jet.jpg'
-import watDrop from './assets/Water-drop.jpg'
+import proImg from './assets/Ceramics.jpg';
+import fiJet from './assets/Jet.jpg';
+import watDrop from './assets/Water-drop.jpg';
 
 
 function Portfolio() {
@@ -76,7 +77,7 @@ function Portfolio() {
                 
                 {/*{projects.map((project, index) => (*/} 
                 {filteredProjects.map((project, index) => (
-                <div className="col" key={project.id}>
+                <div className="col" key={index}>
                     <div className="card text-bg-dark" onClick={() => handleProjectClick(project)}>
                         <img src={project.image} style={{ width: '100%', height: '200px' }} className="card-img" alt={project.title} />
                         <div className="card-img-overlay bg-dark bg-opacity-75 w-75 h-75 mt-4 ms-5">
