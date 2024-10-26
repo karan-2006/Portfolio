@@ -28,18 +28,23 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="modal fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal bg-dark bg-opacity-25 fade" id="exampleModal1" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog">
-                                <div className="modal-content">
+                                <div className="modal-content bg-dark">
                                     <div className="modal-header">
                                         <h1 className="modal-title fs-5" id="exampleModalLabel">Pottery</h1>
                                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div className="modal-body">
+                                        <p className='modal-text px-5 py-5'>Lorem Ipsum is simply dummy text
+                                              of the printing and typesetting industry. Lorem Ipsum
+                                               has been the industry's standard dummy text
+                                              ever since the 1500s.</p>
                                     </div>
                                     <div className="modal-footer">
-                                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" className="btn btn-primary">Save changes</button>
+                                        <button type="button" className="btn btn-primary">
+                                            <a className=' text-secondary text-decoration-none' href="">View Project</a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -94,18 +99,23 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="modal fade" id="exampleModal3" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal bg-dark bg-opacity-25 fade" id="exampleModal3" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog">
-                                <div className="modal-content">
+                                <div className="modal-content bg-dark">
                                     <div className="modal-header">
                                         <h1 className="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
                                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div className="modal-body">
+                                        <p className='modal-text px-5 py-5'>Lorem Ipsum is simply dummy text
+                                              of the printing and typesetting industry. Lorem Ipsum
+                                               has been the industry's standard dummy text
+                                              ever since the 1500s.</p>
                                     </div>
                                     <div className="modal-footer">
-                                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" className="btn btn-primary">Save changes</button>
+                                        <button type="button" className="btn btn-primary">
+                                            <a className=' text-secondary text-decoration-none' href="">View Project</a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
@@ -121,18 +131,23 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
-                        <div className="modal fade" id="exampleModal4" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div className="modal bg-dark bg-opacity-25 fade" id="exampleModal4" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div className="modal-dialog">
-                                <div className="modal-content">
+                                <div className="modal-content bg-dark">
                                     <div className="modal-header">
                                         <h1 className="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
                                         <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div className="modal-body">
+                                        <p className='modal-text px-5 py-5'>Lorem Ipsum is simply dummy text
+                                              of the printing and typesetting industry. Lorem Ipsum
+                                               has been the industry's standard dummy text
+                                              ever since the 1500s.</p>
                                     </div>
                                     <div className="modal-footer">
-                                        <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                        <button type="button" className="btn btn-primary">Save changes</button>
+                                        <button type="button" className="btn btn-primary">
+                                            <a className=' text-secondary text-decoration-none' href="">View Project</a>
+                                        </button>
                                     </div>
                                 </div>
                             </div>
