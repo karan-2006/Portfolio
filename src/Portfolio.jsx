@@ -38,7 +38,6 @@ function Portfolio() {
         link: 'https://your-project-link.com',
         content:'',
       },
-    // Add more projects here
   ];
 
   const filteredProjects = projects.filter((project) =>
@@ -67,17 +66,12 @@ function Portfolio() {
                 <button className="btn btn-outline-light m-5" type="button" onClick={() => handleFilter('')}>ALL</button>
                 <button className="btn btn-outline-light m-5" type="button" onClick={() => handleFilter('DESIGNING')}>DESIGNING</button>
                 <button className="btn btn-outline-light m-5" type="button" onClick={() => handleFilter('WEBSITES')}>WEBSITES</button>
-                {/* Add more filter buttons as needed */}
             </div>
         </center>
-        {/* ... button section ... */}
-
         <div className="container-fluid">
             <div className="row">
-                
-                {/*{projects.map((project, index) => (*/} 
                 {filteredProjects.map((project, index) => (
-                <div className="col" key={index}>
+                <div className="col-3" key={index}>
                     <div className="card text-bg-dark" onClick={() => handleProjectClick(project)}>
                         <img src={project.image} style={{ width: '100%', height: '200px' }} className="card-img" alt={project.title} />
                         <div className="card-img-overlay bg-dark bg-opacity-75 w-75 h-75 mt-4 ms-5">
@@ -87,10 +81,8 @@ function Portfolio() {
                     </div>
                 </div>
             ))}
-            {/*}))}*/}
             </div>
         </div>
-
         {selectedProject && (
             <div className="modal show" style={{ display: 'block' }}>
                 <div className="modal-dialog">
