@@ -20,14 +20,15 @@ function Resume() {
       }, [clients, awards, projects, ratings]);
 
     return(
-        <>
-        <div className="container-fluid py-5 text-light" id="resume">
-        <center>
+
+        <div className="py-5">
+        <div className="container-fluid position-relative py-5 text-light" id="resume">
+        <center className='py-5'>
         <h3 className="display-3 text-primary">My Resume</h3>
-        <h6 className="display-6 text-secondary">Lorem ipsum dolor sit amet</h6>
+        <h6 className="display-6 text-success">Lorem ipsum dolor sit amet</h6>
         <hr className="w-25"/>
         </center>
-        <h4 className="border border-light d-inline-block p-2">EDUCATION</h4>
+        <h4 className="border border-info text-info d-inline-block p-2">EDUCATION</h4>
         <div id="carouselExampleCaptions" className="carousel carousel-dark slide" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -37,28 +38,28 @@ function Resume() {
           <div className="carousel-inner">
             <div className="carousel-item active">
             
-            <div className="card bg-secondary bg-gradient text-light d-none d-md-block m-5 p-5">
-                <h4 className="card-title text-info">2016-2017</h4>
+            <div className="card border border-secondary bg-dark text-light d-none d-md-block m-5 p-5">
+                <h4 className="card-title text-warning">2016-2017</h4>
                 <h5 className="card-title">SSLC - AVICHI Higher Seondary School</h5>
-                <p className="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  sed do <br /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
           <div className="carousel-item">
             
-            <div className="card bg-secondary  bg-gradient text-light d-none d-md-block m-5 p-5">
-              <h4 className="card-title text-info">2018-2019</h4>
+            <div className="card border border-secondary bg-dark text-light d-none d-md-block m-5 p-5">
+              <h4 className="card-title text-warning">2018-2019</h4>
               <h5 className="card-title">HSC - AVICHI Higher Seondary School</h5>
-              <p className="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+              <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  sed do <br /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
           <div className="carousel-item">
 
-            <div className="card bg-secondary bg-gradient text-light d-none d-md-block m-5 p-5">
-                <h4 className="car-title text-info">2019-2023</h4>
+            <div className="card border border-secondary bg-dark text-light d-none d-md-block m-5 p-5">
+                <h4 className="car-title text-warning">2019-2023</h4>
                 <h5 className="card-title">B.E - DMI College of Engineering</h5>
-                <p className="card-text text-dark">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  sed do <br /> eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
@@ -67,75 +68,75 @@ function Resume() {
 
         <div className="row py-5">
           <div className="col">
-            <h4 className="border border-light d-inline-block p-2">MY SKILLS</h4>
+            <h4 className="border border-info text-info d-inline-block p-2">MY SKILLS</h4>
             <div className="row">
               <div className="col py-2 list-unstyled">
-                <li className="py-2">HTML</li>
-                <li className="py-2">BOOTSTRAP</li>
-                <li className="py-2">PYTHON</li>
-                <li className="py-2">NODE JS</li>
-                <li className='py-2'>REACT JS</li>
+                <li className="list-item text-warning py-2">HTML</li>
+                <li className="list-item text-warning py-2">BOOTSTRAP</li>
+                <li className="list-item text-warning py-2">PYTHON</li>
+                <li className="list-item text-warning py-2">NODE JS</li>
+                <li className='list-item text-warning py-2'>REACT JS</li>
               </div>
               <div className="col py-2 list-unstyled">
-                <li className="py-2">CSS</li>
-                <li className="py-2">JAVASCRIPT</li>
-                <li className="py-2">DJANGO</li>
-                <li className="py-2">EXPRESS JS</li>
-                <li className="py-2">MongoDB</li>
+                <li className="list-item text-warning py-2">CSS</li>
+                <li className="list-item text-warning py-2">JAVASCRIPT</li>
+                <li className="list-item text-warning py-2">DJANGO</li>
+                <li className="list-item text-warning py-2">EXPRESS JS</li>
+                <li className="list-item text-warning py-2">MONGO DB</li>
               </div>
             </div>
           </div>
           <div className="col">
-            <h4 className="border border-light d-inline-block p-2">FUN FACTS</h4>
+            <h4 className="border border-info text-info d-inline-block p-2">FUN FACTS</h4>
             <div className="row py-2">
               <div className="col-6 py-2">
                 <nav aria-label="...">
-                  <ul className="pagination pagination-lg">
-                    <li className="page-item p-3 border border-light">
+                  <ul className="pagination pagination-lg border border-secondary bg-dark">
+                    <li className="page-item p-4">
                       <img src="" alt="..."/>
                     </li>
-                    <li className="page-item p-3 border border-light">
-                      <h5>{clients}</h5>
-                      <p>Happy Clients</p>
+                    <li className="page-item border-start border-secondary p-3">
+                      <h5 className='text-warning'>{clients}</h5>
+                      <p className='text-secondary'>Happy Clients</p>
                     </li>
                   </ul>
                 </nav>
               </div>
               <div className="col-6 py-2">
               <nav aria-label="...">
-                  <ul className="pagination pagination-lg">
-                    <li className="page-item p-3 border border-light">
+                  <ul className="pagination pagination-lg border border-secondary bg-dark">
+                    <li className="page-item p-4">
                       <img src="" alt="..." />
                     </li>
-                    <li className="page-item p-3 border border-light">
-                      <h5>{awards}</h5>
-                      <p>Awards Achieved</p>
+                    <li className="page-item border-start border-secondary p-3">
+                      <h5 className='text-warning'>{awards}</h5>
+                      <p className='text-secondary'>Awards Achieved</p>
                     </li>
                   </ul>
                 </nav>
               </div>
               <div className="col-6 py-2">
               <nav aria-label="...">
-                  <ul className="pagination pagination-lg">
-                    <li className="page-item p-3 border border-light">
+                  <ul className="pagination pagination-lg border border-secondary bg-dark">
+                    <li className="page-item p-4">
                       <img src="" alt="..." />
                     </li>
-                    <li className="page-item p-3 border border-light">
-                      <h5>{projects}</h5>
-                      <p>Projects Done</p>
+                    <li className="page-item border-start border-secondary p-3">
+                      <h5 className='text-warning'>{projects}</h5>
+                      <p className='text-secondary'>Projects Done</p>
                     </li>
                   </ul>
                 </nav>
               </div>
               <div className="col-6 py-2">
               <nav aria-label="...">
-                  <ul className="pagination pagination-lg">
-                    <li className="page-item p-3 border border-light">
+                  <ul className="pagination pagination-lg border border-secondary bg-dark">
+                    <li className="page-item p-4">
                       <img src="" alt="..." />
                     </li>
-                    <li className="page-item p-3 border border-light">
-                      <h5>{ratings}</h5>
-                      <p className="pe-4">User Rattings</p>
+                    <li className="page-item border-start border-secondary p-3">
+                      <h5 className='text-warning'>{ratings}</h5>
+                      <p className="text-secondary pe-4">User Rattings</p>
                     </li>
                   </ul>
                 </nav>
@@ -144,7 +145,8 @@ function Resume() {
           </div>
         </div>
       </div>
-      </>
+      </div>
+
   
       
     )

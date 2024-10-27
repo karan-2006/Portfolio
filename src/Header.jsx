@@ -2,10 +2,10 @@ function Header(){
 
     return(
 
-         <header data-spy="scroll" data-target="#navbarNavAltMarkup" data-offset="100">
-             <nav className="navbar navbar-expand-lg bg-transparent">
+         <header className="position-sticky fixed-top" data-spy="scroll" data-target="#navbarNavAltMarkup" data-offset="100">
+             <nav className="navbar navbar-dark navbar-expand-lg bg-gradient bg-opacity-25">
                  <div className="container-fluid">
-                     <a className="navbar-brand text-danger" href="#"><h1 className="display-1"><b>KARAN KUMAR</b></h1></a>
+                     <a className="navbar-brand text-danger" href="#"><h4 className="display-4"><b>KARAN KUMAR</b></h4></a>
                      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                          <span className="navbar-toggler-icon"></span>
                      </button>
