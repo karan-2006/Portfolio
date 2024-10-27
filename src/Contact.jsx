@@ -2,7 +2,7 @@ function Contact() {
 
     return(
         <>
-        <div className="container-fluid py-5">
+        <div className="container-fluid py-5" id="contact">
             <center>
                 <h3 className='display-3 text-primary'>Get in touch</h3>
                 <h6 className="display-6 text-secondary">Feel free to drop me a line - Contact me</h6>

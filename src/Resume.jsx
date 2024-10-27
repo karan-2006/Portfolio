@@ -21,7 +21,7 @@ function Resume() {
 
     return(
         <>
-        <div className="container-fluid py-5 text-light">
+        <div className="container-fluid py-5 text-light" id="resume">
         <center>
         <h3 className="display-3 text-primary">My Resume</h3>
         <h6 className="display-6 text-secondary">Lorem ipsum dolor sit amet</h6>

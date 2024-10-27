@@ -57,7 +57,7 @@ function Portfolio() {
   };
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" id="portfolio">
         <center>
             <h3 className="display-3 text-primary">Portfolio</h3>
             <h6 className="display-6 text-secondary">See My Works - Lorem ipsum dolor</h6>

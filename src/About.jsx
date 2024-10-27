@@ -2,7 +2,7 @@ import profilePic from './assets/Pofile.jpg'
 function About() {
 
   return (
-    <div className='container-fluid py-5'>
+    <div className='container-fluid py-5' id="about">
       <center>
         <h3 className='display-3 text-primary'>About Me</h3>
         <h6 className="display-6 text-secondary">Professional Profile - There Is All About Me</h6>

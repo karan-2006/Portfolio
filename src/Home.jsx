@@ -2,7 +2,7 @@
 
 function Home() {
   return (
-    <div className="container-fluid py-5">
+    <div className="container-fluid py-5" id="home">
     <h5>Hi There! I'm</h5>
     <h3 className="display-3 py-3">Full stack developer</h3>
     <p>Lorem Ipsum is simply dummy text of the printing and <br /> typesetting industry.
