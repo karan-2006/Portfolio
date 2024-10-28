@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import proImg from './assets/Ceramics.jpg';
 import fiJet from './assets/Jet.jpg';
+import liTem from './assets/List.jpg'
 import watDrop from './assets/Water-drop.jpg';
 
 
@@ -25,9 +26,9 @@ function Portfolio() {
         content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
       },
       {
-        title: 'Pottery Project',
+        title: 'TO DO LIST',
         description: 'WEBSITES',
-        image: watDrop,
+        image: liTem,
         link: 'https://your-project-link.com',
         content:'',
       },
