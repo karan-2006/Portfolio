@@ -4,4 +4,29 @@ body{
     padding: 0;
 }
 
+@media screen and (max-width: 768px){
+    body{
+        font-size: x-small;
+    }
 
+    #icon{
+        font-size: xx-small;
+        padding: 0rem 1rem !important;
+    }
+
+    #overlay{
+        font-size: xx-small;
+        margin-left: 1rem !important;
+    }
+
+    #profile img{
+        width: 300px !important;
+        height: 400px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body{
+        font-size: xx-small;
+    }
+}

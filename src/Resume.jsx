@@ -1,5 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUserTie, faTrophy, faStar, faMedal } from '@fortawesome/free-solid-svg-icons';
 
 function Resume() {
 
@@ -21,9 +23,9 @@ function Resume() {
 
     return(
 
-        <div className="py-5">
-        <div className="container-fluid position-relative py-5 text-light" id="resume">
-        <center className='py-5'>
+        <div className="pt-5">
+        <div className="container-fluid position-relative pt-5 text-light" id="resume">
+        <center className='pt-5'>
         <h3 className="display-3 text-primary">My Resume</h3>
         <h6 className="display-6 text-success">Lorem ipsum dolor sit amet</h6>
         <hr className="w-25"/>
@@ -66,18 +68,18 @@ function Resume() {
         </div>
         </div>
 
-        <div className="row py-5">
-          <div className="col">
+        <div className="row pt-5">
+          <div className="col-6">
             <h4 className="border border-info text-info d-inline-block p-2">MY SKILLS</h4>
             <div className="row">
-              <div className="col py-2 list-unstyled">
+              <div className="col pt-2 list-unstyled">
                 <li className="list-item text-warning py-2">HTML</li>
                 <li className="list-item text-warning py-2">BOOTSTRAP</li>
                 <li className="list-item text-warning py-2">PYTHON</li>
                 <li className="list-item text-warning py-2">NODE JS</li>
                 <li className='list-item text-warning py-2'>REACT JS</li>
               </div>
-              <div className="col py-2 list-unstyled">
+              <div className="col pt-2 list-unstyled">
                 <li className="list-item text-warning py-2">CSS</li>
                 <li className="list-item text-warning py-2">JAVASCRIPT</li>
                 <li className="list-item text-warning py-2">DJANGO</li>
@@ -86,14 +88,14 @@ function Resume() {
               </div>
             </div>
           </div>
-          <div className="col">
+          <div className="col-6">
             <h4 className="border border-info text-info d-inline-block p-2">FUN FACTS</h4>
-            <div className="row py-2">
-              <div className="col-6 py-2">
+            <div className="row pt-2">
+              <div className="col-6 pt-2">
                 <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li className="page-item p-4">
-                      <img src="" alt="..."/>
+                    <FontAwesomeIcon icon={ faUserTie } size="2x" className="pt-3 text-danger"/>
                     </li>
                     <li className="page-item border-start border-secondary p-3">
                       <h5 className='text-warning'>{clients}</h5>
@@ -102,11 +104,11 @@ function Resume() {
                   </ul>
                 </nav>
               </div>
-              <div className="col-6 py-2">
+              <div className="col-6 pt-2">
               <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li className="page-item p-4">
-                      <img src="" alt="..." />
+                    <FontAwesomeIcon icon={ faTrophy } size="2x" className="pt-3 text-danger"/>
                     </li>
                     <li className="page-item border-start border-secondary p-3">
                       <h5 className='text-warning'>{awards}</h5>
@@ -115,11 +117,11 @@ function Resume() {
                   </ul>
                 </nav>
               </div>
-              <div className="col-6 py-2">
+              <div className="col-6 pt-2">
               <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li className="page-item p-4">
-                      <img src="" alt="..." />
+                    <FontAwesomeIcon icon={ faMedal } size="2x" className="pt-3 text-danger"/>
                     </li>
                     <li className="page-item border-start border-secondary p-3">
                       <h5 className='text-warning'>{projects}</h5>
@@ -128,15 +130,17 @@ function Resume() {
                   </ul>
                 </nav>
               </div>
-              <div className="col-6 py-2">
+              <div className="col-6 pt-2">
               <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
-                    <li className="page-item p-4">
-                      <img src="" alt="..." />
+                    <li id='icon' className="page-item p-2">
+                    <FontAwesomeIcon icon={ faStar } className="text-danger"/>
+                    <FontAwesomeIcon icon={ faStar } size="xl" className="mt-4 text-danger"/>
+                    <FontAwesomeIcon icon={ faStar } className="text-danger"/>
                     </li>
                     <li className="page-item border-start border-secondary p-3">
                       <h5 className='text-warning'>{ratings}</h5>
-                      <p className="text-secondary pe-4">User Rattings</p>
+                      <p className="text-secondary col-md pe-0 col-lg pe-4">User Rattings</p>
                     </li>
                   </ul>
                 </nav>
