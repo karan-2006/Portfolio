@@ -60,25 +60,25 @@ function Portfolio() {
   };
 
   return (
-    <div className="pt-5">
-    <div className="container-fluid position-relative pt-5" id="portfolio">
+    <div className="col-xs pt-1 col-lg pt-5">
+    <div className="container-fluid position-relative pt-3" id="portfolio">
         <center className='pt-5'>
             <h3 className="display-3 text-primary">Portfolio</h3>
             <h6 className="display-6 text-success">See My Works - Lorem ipsum dolor</h6>
             <hr className="w-25" />
-            <div className="container-fluid">
-                <button className='btn btn-outline-danger m-5 p-2' type="button" onClick={() => handleFilter('')}>ALL</button>
-                <button className='btn btn-outline-danger m-5 p-2' type="button" onClick={() => handleFilter('DESIGNING')}>DESIGNING</button>
-                <button className='btn btn-outline-danger m-5 p-2' type="button" onClick={() => handleFilter('WEBSITES')}>WEBSITES</button>
+            <div className="container-fluid col-xs d-flex ">
+                <button className='btn btn-outline-danger  col-xs mx-1  col-lg m-5 p-2' type="button" onClick={() => handleFilter('')}>ALL</button>
+                <button className='btn btn-outline-danger  col-xs mx-1  col-lg m-5 p-2' type="button" onClick={() => handleFilter('DESIGNING')}>DESIGNING</button>
+                <button className='btn btn-outline-danger  col-xs mx-1  col-lg m-5 p-2' type="button" onClick={() => handleFilter('WEBSITES')}>WEBSITES</button>
             </div>
         </center>
         <div className="container-fluid">
             <div className="row">
                 {filteredProjects.map((project, index) => (
-                <div className="col-3" key={index}>
+                <div className="col-lg col-12" key={index}>
                     <div className="card text-bg-dark" onClick={() => handleProjectClick(project)}>
-                        <img src={project.image} style={{ width: '100%', height: '200px' }} className="card-img" alt={project.title} />
-                        <div id='overlay' className="card-img-overlay bg-dark bg-opacity-75 w-75 h-75 mt-4 ms-5">
+                        <img src={project.image} style={{ width: '100%', height: '200px' }} id='project' className="card-img" alt={project.title} />
+                        <div id='overlay' className="card-img-overlay bg-dark bg-opacity-75 col-lg w-75 h-75 mt-4 ms-5">
                             <h5 className="card-title text-info">{project.title}</h5>
                             <p className="card-text text-warning">{project.description}</p>
                         </div>
@@ -88,8 +88,8 @@ function Portfolio() {
             </div>
         </div>
         {selectedProject && (
-            <div className="modal show" style={{ display: 'block' }}>
-                <div className="modal-dialog">
+            <div className="modal bg-dark bg-opacity-75 show" style={{ display: 'block' }}>
+                <div  className="modal-dialog  ">
                     <div className="modal-content bg-black">
                         <div className="modal-header">
                             <h5 className="modal-title text-info">{selectedProject.title}</h5>
@@ -97,13 +97,13 @@ function Portfolio() {
                         </div>
                         <div className="modal-body">
                             <div className="row">
-                                <div className="col">
+                                <div className="col-xs col-12 col-lg col-6">
                                     <img src={selectedProject.image} style={{ width: '100%', height: '200px' }} className="modal-img" alt={selectedProject.title} />
                                 </div>
-                                <div className="col">
+                                <div className="col-xs col-12 col-lg col-6">
                                     <blockquote>
                                         <p className='text-warning'><FontAwesomeIcon icon={faFolder} className='px-1'/>{selectedProject.description}</p>
-                                        <h6 className='text-secondary py-3'>{selectedProject.content}</h6>
+                                        <h6 className='text-secondary col-xs p-0 fs-6 col-lg py-1'>{selectedProject.content}</h6>
                                         <button type="button" className='btn btn-outline-danger'>
                                             <a className='text-decoration-none text-light' href={selectedProject.link} target="_blank" rel="noopener noreferrer">
                                                 View Project

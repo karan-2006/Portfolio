@@ -24,9 +24,3 @@ body{
         height: 400px !important;
     }
 }
-
-@media screen and (max-width: 576px) {
-    body{
-        font-size: xx-small;
-    }
-}

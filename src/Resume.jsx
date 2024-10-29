@@ -23,9 +23,8 @@ function Resume() {
 
     return(
 
-        <div className="pt-5">
         <div className="container-fluid position-relative pt-5 text-light" id="resume">
-        <center className='pt-5'>
+        <center className='pt-3'>
         <h3 className="display-3 text-primary">My Resume</h3>
         <h6 className="display-6 text-success">Lorem ipsum dolor sit amet</h6>
         <hr className="w-25"/>
@@ -69,7 +68,7 @@ function Resume() {
         </div>
 
         <div className="row pt-5">
-          <div className="col-6">
+          <div className="col-xs-12 col-lg-6">
             <h4 className="border border-info text-info d-inline-block p-2">MY SKILLS</h4>
             <div className="row">
               <div className="col pt-2 list-unstyled">
@@ -88,10 +87,10 @@ function Resume() {
               </div>
             </div>
           </div>
-          <div className="col-6">
+          <div className="col-xs-12 col-lg-6">
             <h4 className="border border-info text-info d-inline-block p-2">FUN FACTS</h4>
             <div className="row pt-2">
-              <div className="col-6 pt-2">
+              <div className="col-xs-12 col-lg-6 pt-2">
                 <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li className="page-item p-4">
@@ -104,7 +103,7 @@ function Resume() {
                   </ul>
                 </nav>
               </div>
-              <div className="col-6 pt-2">
+              <div className="col-xs-12 col-lg-6 pt-2">
               <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li className="page-item p-4">
@@ -117,7 +116,7 @@ function Resume() {
                   </ul>
                 </nav>
               </div>
-              <div className="col-6 pt-2">
+              <div className="col-xs-12 col-lg-6 pt-2">
               <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li className="page-item p-4">
@@ -130,7 +129,7 @@ function Resume() {
                   </ul>
                 </nav>
               </div>
-              <div className="col-6 pt-2">
+              <div className="col-xs-12 col-lg-6 pt-2">
               <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li id='icon' className="page-item p-2">
@@ -149,7 +148,7 @@ function Resume() {
           </div>
         </div>
       </div>
-      </div>
+
 
   
       

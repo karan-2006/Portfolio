@@ -4,15 +4,15 @@ import {faGlobe, faHeadset, faPalette, faMedal} from '@fortawesome/free-solid-sv
 function Services() {
 
     return(
-        <div className="pt-5">
-        <div className="container-fluid position-relative  pt-5" id="services">
-            <center className="pt-5">
+
+        <div className="container-fluid position-relative col-xs pt-1 col-lg pt-5" id="services">
+            <center className="pt-3">
                 <h3 className='display-3 text-primary'>My Services</h3>
                 <h6 className="display-6 text-success">Lorem ipsum dolor sit amet</h6>
                 <hr className='w-25' />
             <div className="container">
             <div className="row pt-3">
-                <div className="col-6 pt-3">
+                <div className="col-xs-12 col-lg-6 pt-3">
                 <div className="card border border-secondary bg-dark">
                 <center>
                 <FontAwesomeIcon icon={faPalette} size="2x" className='pt-4 text-danger'/>
@@ -24,7 +24,7 @@ function Services() {
                     </center>
                 </div>
                 </div>
-                <div className="col-6 pt-3">
+                <div className=" col-xs-12 col-lg-6 pt-3">
                 <div className="card border border-secondary bg-dark">
                 <center>
                 <FontAwesomeIcon icon={faGlobe} size='2x' className='pt-4 text-danger'/>
@@ -36,7 +36,7 @@ function Services() {
                     </center>
                 </div>
                 </div>
-                <div className="col-6 pt-3">
+                <div className="col-xs-12 col-lg-6 pt-3">
                 <div className="card border border-secondary bg-dark">
                 <center>
                 <FontAwesomeIcon icon={faMedal} size='2x' className='pt-4 text-danger'/>
@@ -48,7 +48,7 @@ function Services() {
                     </center>
                 </div>
                 </div>
-                <div className="col-6 pt-3">
+                <div className="col-xs-12 col-lg-6 pt-3">
                 <div className="card border border-secondary bg-dark">
                     <center>
                     <FontAwesomeIcon icon={faHeadset} size='2x' className='pt-4 text-danger'/>
@@ -64,7 +64,7 @@ function Services() {
             </div>
             </center>
         </div>
-        </div>
+
     )
     
 }

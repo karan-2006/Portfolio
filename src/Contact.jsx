@@ -1,9 +1,8 @@
 function Contact() {
 
     return(
-        <div className="pt-5">
         <div className="container-fluid position-relative  pt-5" id="contact">
-            <center className="pt-5">
+            <center className="pt-4">
                 <h3 className='display-3 text-primary'>Get in touch</h3>
                 <h6 className="display-6 text-success">Feel free to drop me a line - Contact me</h6>
                 <hr className='w-25' />
@@ -35,7 +34,7 @@ function Contact() {
                 </form>
                 </div>
                     <div className="row pt-3">
-                      <div className="col">
+                      <div className="col-xs-12 py-2 col-lg-3">
                       <div className="card border border-secondary bg-dark">
                         <div className="card-body">
                           <h5 className="card-title text-info">Address</h5>
@@ -45,7 +44,7 @@ function Contact() {
                         </div>
                       </div>
                       </div>
-                      <div className="col">
+                      <div className="col-xs-12 py-2 col-lg-3">
                       <div className="card border border-secondary bg-dark">
                         <div className="card-body">
                           <h5 className="card-title text-info">Phone No</h5>
@@ -55,7 +54,7 @@ function Contact() {
                         </div>
                       </div>
                       </div>
-                      <div className="col">
+                      <div className="col-xs-12 py-2 col-lg-3">
                       <div className="card border border-secondary bg-dark">
                         <div className="card-body">
                           <h5 className="card-title text-info">Email</h5>
@@ -67,7 +66,6 @@ function Contact() {
                       </div>
                     </div>
             </center>
-        </div>
         </div>
     )
     
