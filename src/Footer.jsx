@@ -8,24 +8,24 @@ import {faPinterestP} from '@fortawesome/free-brands-svg-icons';
 function Footer(){
     
     return(
-        <footer className="mt-3 pt-3">
-            <center>
+        <footer>
+            <center className="col-xs mt-1 pt-1 col-lg mt-3 pt-3">
                 
-                <h3 className="display-3 text-danger">Karan Kumar</h3>
+                <h4 className="display-4 text-danger">Karan Kumar</h4>
                 <blockquote>
-                <p className="text-secondary py-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br />
+                <p className="text-secondary col-xs pt-1 col-lg pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <br />
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br />
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <h5 className="text-info pt-3">
-                <FontAwesomeIcon icon={faFacebookF} size="xl" className="text-primary pe-3"/>
-                <FontAwesomeIcon icon={faTwitter} size="xl" className="text-primary pe-3"/>
-                <FontAwesomeIcon icon={faLinkedinIn} size="xl" className="text-primary"/>
-                <FontAwesomeIcon icon={faInstagram} size="xl" className="text-primary ps-3"/>
-                <FontAwesomeIcon icon={faPinterestP} size="xl" className="text-primary ps-3"/>
+                <h5 className="text-info col-xs pt-1 col-lg pt-3">
+                <FontAwesomeIcon icon={faFacebookF} className="text-primary col-lg fs-3 pe-3 col-xs fs-6 pe-1"/>
+                <FontAwesomeIcon icon={faTwitter} className="text-primary col-lg fs-3 pe-3 col-xs fs-6 pe-1"/>
+                <FontAwesomeIcon icon={faLinkedinIn} className="text-primary col-lg fs-3 col-xs fs-6"/>
+                <FontAwesomeIcon icon={faInstagram} className="text-primary col-lg fs-3 ps-3 col-xs fs-6 ps-1"/>
+                <FontAwesomeIcon icon={faPinterestP} className="text-primary col-lg fs-3 ps-3 col-xs fs-6 ps-1"/>
                 </h5>
                 <hr />
                 </blockquote>
-                <h6>Copyright &copy; MyPortfolio. All rights reserved</h6>
+                <h6 id="foot">Copyright &copy; MyPortfolio. All rights reserved</h6>
             </center>
         </footer>
     )

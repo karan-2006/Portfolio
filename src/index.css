@@ -24,3 +24,43 @@ body{
         height: 400px !important;
     }
 }
+
+@media screen and (max-width: 576px) {
+    body{
+        font-size: xx-small !important;
+    }
+    #foot{
+        font-size: xx-small;
+    }
+    
+    #about img{
+        width: 50% !important;
+        height: 100% !important;
+    }
+
+    .carousel-item .card{
+        width: 240px;
+        height: 200px;
+        font-size: xx-small !important;
+    }
+
+    .carousel-item .card p{
+        font-size: xx-small;
+    } 
+
+    .modal img{
+        width: 100% !important;
+        height: 150px !important;
+    }
+
+    .modal h6{
+        font-size: x-small;
+    }
+
+    .modal button a{
+        font-size: x-small !important;
+    }
+
+
+   
+}

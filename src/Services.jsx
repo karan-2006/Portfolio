@@ -8,7 +8,7 @@ function Services() {
         <div className="container-fluid position-relative col-xs pt-1 col-lg pt-5" id="services">
             <center className="pt-3">
                 <h3 className='display-3 text-primary'>My Services</h3>
-                <h6 className="display-6 text-success">Lorem ipsum dolor sit amet</h6>
+                <h6 className="display-6 text-success col-xs fs-6 col-lg fs-3">Lorem ipsum dolor sit amet</h6>
                 <hr className='w-25' />
             <div className="container">
             <div className="row pt-3">
@@ -17,7 +17,7 @@ function Services() {
                 <center>
                 <FontAwesomeIcon icon={faPalette} size="2x" className='pt-4 text-danger'/>
                     <div className="card-body">
-                        <h5 className='card-title text-light'>WEB DESIGN</h5>
+                        <h5 className='card-title text-light col-xs fs-6 col-lg fs-3'>WEB DESIGN</h5>
                         <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur <br />
                          adipiscing elit. doloribus assuenda <br /> voluptas</p>
                     </div>
@@ -29,7 +29,7 @@ function Services() {
                 <center>
                 <FontAwesomeIcon icon={faGlobe} size='2x' className='pt-4 text-danger'/>
                     <div className="card-body">
-                        <h5 className='card-title text-light'>WEB DEVELOPMENT</h5>
+                        <h5 className='card-title text-light col-xs fs-6 col-lg fs-3'>WEB DEVELOPMENT</h5>
                         <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur <br />
                          adipiscing elit. doloribus assuenda <br /> voluptas</p>
                     </div>
@@ -41,7 +41,7 @@ function Services() {
                 <center>
                 <FontAwesomeIcon icon={faMedal} size='2x' className='pt-4 text-danger'/>
                     <div className="card-body">
-                        <h5 className='card-title text-light'>CREATIVE DESIGN</h5>
+                        <h5 className='card-title text-light col-xs fs-6 col-lg fs-3'>CREATIVE DESIGN</h5>
                         <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur <br />
                          adipiscing elit. doloribus assuenda <br /> voluptas</p>
                     </div>
@@ -53,7 +53,7 @@ function Services() {
                     <center>
                     <FontAwesomeIcon icon={faHeadset} size='2x' className='pt-4 text-danger'/>
                     <div className="card-body">
-                        <h5 className='card-title text-light'>24 X 7 SUPPORT</h5>
+                        <h5 className='card-title text-light col-xs fs-6 col-lg fs-3'>24 X 7 SUPPORT</h5>
                         <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur <br />
                          adipiscing elit. doloribus assuenda <br /> voluptas</p>
                     </div>
