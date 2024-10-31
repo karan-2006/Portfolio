@@ -75,7 +75,7 @@ function Portfolio() {
         <div className="container-fluid">
             <div className="row">
                 {filteredProjects.map((project, index) => (
-                <div className="col-xs py-2 col-12 col-lg col-3" key={index}>
+                <div className="col-xs py-2 col-12 col-md col-3 col-lg col-3" key={index}>
                     <div className="card text-bg-dark" onClick={() => handleProjectClick(project)}>
                         <img src={project.image} style={{ width: '100%', height: '200px' }} id='project' className="card-img" alt={project.title} />
                         <div id='overlay' className="card-img-overlay bg-dark bg-opacity-75 col-xs m-2 m-2 w-75  col-lg w-75 h-75 mt-4 ms-5">
@@ -89,7 +89,7 @@ function Portfolio() {
         </div>
         {selectedProject && (
             <div className="modal bg-dark bg-opacity-75 show" style={{ display: 'block' }}>
-                <div  className="modal-dialog col-xs m-5">
+                <div  className="modal-dialog m-5">
                     <div className="modal-content bg-black">
                         <div className="modal-header">
                             <h5 className="modal-title text-info">{selectedProject.title}</h5>
@@ -97,10 +97,10 @@ function Portfolio() {
                         </div>
                         <div className="modal-body">
                             <div className="row">
-                                <div className="col-xs col-1 col-lg col-6">
+                                <div className="col-xs col-12 col-md col-6 col-lg col-6">
                                     <img src={selectedProject.image} style={{ width: '100%', height: '200px' }} className="modal-img" alt={selectedProject.title} />
                                 </div>
-                                <div className="col-xs col-6 col-lg col-6">
+                                <div className="col-xs col-12 col-md col-6 col-lg col-6">
                                     <blockquote>
                                         <p className='text-warning'><FontAwesomeIcon icon={faFolder} className='px-1'/>{selectedProject.description}</p>
                                         <h6 className='text-secondary col-xs pb-1 col-lg py-1'>{selectedProject.content}</h6>

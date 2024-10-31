@@ -37,27 +37,27 @@ function Resume() {
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
           <div className="carousel-inner">
-            <div className="carousel-item active col-lg m-2">
+            <div className="carousel-item active col-xs py-2 col-lg py-2">
             
-            <div className="card border border-secondary bg-dark text-light col-xs p-1 m-1 col-lg m-5 p-5">
+            <div className="card border border-secondary bg-dark text-light col-xs m-5 p-5 col-lg m-5 p-5">
                 <h4 className="card-title text-warning col-lg fs-5 col-xs fs-6">2016-2017</h4>
                 <h5 className="card-title col-lg fs-6 col-xs fs-6">SSLC - AVICHI Higher Seondary School</h5>
                 <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  sed do eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
-          <div className="carousel-item col-lg m-2">
+          <div className="carousel-item col-xs py-2 col-lg py-2">
             
-            <div className="card border border-secondary bg-dark text-light col-xs p-1 m-1 col-lg m-5 p-5">
+            <div className="card border border-secondary bg-dark text-light col-xs m-5 p-5 col-lg m-5 p-5">
               <h4 className="card-title text-warning col-lg fs-5 col-xs fs-6">2018-2019</h4>
               <h5 className="card-title col-lg fs-6 col-xs fs-6">HSC - AVICHI Higher Seondary School</h5>
               <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                  sed do eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
-          <div className="carousel-item col-lg m-2">
+          <div className="carousel-item col-xs py-2 col-lg py-2">
 
-            <div className="card border border-secondary bg-dark text-light col-xs p-1 m-1 col-lg m-5 p-5">
+            <div className="card border border-secondary bg-dark text-light col-xs p-5 m-5 col-lg m-5 p-5">
                 <h4 className="car-title text-warning col-lg fs-5 col-xs fs-6">2019-2023</h4>
                 <h5 className="card-title col-lg fs-6 col-xs fs-6">B.E - DMI College of Engineering</h5>
                 <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -90,7 +90,7 @@ function Resume() {
           <div className="col-xs-12 col-lg-6">
             <h4 className="border border-info text-info d-inline-block p-2 col-xs fs-6">FUN FACTS</h4>
             <div className="row pt-2">
-              <div className="col-xs-12 col-lg-6 pt-2">
+              <div className="col-xs-12 col-md-6 col-lg-6 pt-2">
                 <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li className="page-item p-4">
@@ -103,7 +103,7 @@ function Resume() {
                   </ul>
                 </nav>
               </div>
-              <div className="col-xs-12 col-lg-6 pt-2">
+              <div className="col-xs-12 col-md-6 col-lg-6 pt-2">
               <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li className="page-item p-4">
@@ -116,7 +116,7 @@ function Resume() {
                   </ul>
                 </nav>
               </div>
-              <div className="col-xs-12 col-lg-6 pt-2">
+              <div className="col-xs-12 col-md-6 col-lg-6 pt-2">
               <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li className="page-item p-4">
@@ -129,17 +129,17 @@ function Resume() {
                   </ul>
                 </nav>
               </div>
-              <div className="col-xs-12 col-lg-6 pt-2">
+              <div className="col-xs-12 col-md-6 mt-1 col-lg-6 pt-1">
               <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
-                    <li id='icon' className="page-item p-2">
-                    <FontAwesomeIcon icon={ faStar } className="text-danger"/>
-                    <FontAwesomeIcon icon={ faStar } size="xl" className="mt-4 text-danger"/>
-                    <FontAwesomeIcon icon={ faStar } className="text-danger"/>
+                    <li id='icon' className="page-item">
+                    <FontAwesomeIcon icon={ faStar } className="text-danger pt-3"/>
+                    <FontAwesomeIcon icon={ faStar } size="xl" className="mt-4 text-danger pt-3"/>
+                    <FontAwesomeIcon icon={ faStar } className="text-danger pt-3"/>
                     </li>
                     <li className="page-item border-start border-secondary p-3">
                       <h5 className='text-warning'>{ratings}</h5>
-                      <p className="text-secondary col-md pe-0 col-lg pe-4">User Rattings</p>
+                      <p className="text-secondary col-lg pe-4">User Rattings</p>
                     </li>
                   </ul>
                 </nav>

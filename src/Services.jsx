@@ -12,7 +12,7 @@ function Services() {
                 <hr className='w-25' />
             <div className="container">
             <div className="row pt-3">
-                <div className="col-xs-12 col-lg-6 pt-3">
+                <div className="col-xs-12 col-md-6 col-lg-6 pt-3">
                 <div className="card border border-secondary bg-dark">
                 <center>
                 <FontAwesomeIcon icon={faPalette} size="2x" className='pt-4 text-danger'/>
@@ -24,7 +24,7 @@ function Services() {
                     </center>
                 </div>
                 </div>
-                <div className=" col-xs-12 col-lg-6 pt-3">
+                <div className=" col-xs-12 col-md-6 col-lg-6 pt-3">
                 <div className="card border border-secondary bg-dark">
                 <center>
                 <FontAwesomeIcon icon={faGlobe} size='2x' className='pt-4 text-danger'/>
@@ -36,7 +36,7 @@ function Services() {
                     </center>
                 </div>
                 </div>
-                <div className="col-xs-12 col-lg-6 pt-3">
+                <div className="col-xs-12 col-md-6 col-lg-6 pt-3">
                 <div className="card border border-secondary bg-dark">
                 <center>
                 <FontAwesomeIcon icon={faMedal} size='2x' className='pt-4 text-danger'/>
@@ -48,7 +48,7 @@ function Services() {
                     </center>
                 </div>
                 </div>
-                <div className="col-xs-12 col-lg-6 pt-3">
+                <div className="col-xs-12 col-md-6 col-lg-6 pt-3">
                 <div className="card border border-secondary bg-dark">
                     <center>
                     <FontAwesomeIcon icon={faHeadset} size='2x' className='pt-4 text-danger'/>

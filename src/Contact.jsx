@@ -34,7 +34,7 @@ function Contact() {
                 </form>
                 </div>
                     <div className="row pt-3">
-                      <div className="col-xs col-12 py-2 col-lg col-4">
+                      <div className="col-xs col-12 py-2 col-md col-4 col-lg col-4">
                       <div className="card border border-secondary bg-dark">
                         <div className="card-body">
                           <h5 className="card-title text-info">Address</h5>
@@ -44,7 +44,7 @@ function Contact() {
                         </div>
                       </div>
                       </div>
-                      <div className="col-xs col-12 py-2 col-lg col-4">
+                      <div className="col-xs col-12 py-2 col-md col-4 col-lg col-4">
                       <div className="card border border-secondary bg-dark">
                         <div className="card-body">
                           <h5 className="card-title text-info">Phone No</h5>
@@ -54,7 +54,7 @@ function Contact() {
                         </div>
                       </div>
                       </div>
-                      <div className="col-xs col-12 py-2 col-lg col-4">
+                      <div className="col-xs col-12 py-2 col-md col-4 col-lg col-4">
                       <div className="card border border-secondary bg-dark">
                         <div className="card-body">
                           <h5 className="card-title text-info">Email</h5>

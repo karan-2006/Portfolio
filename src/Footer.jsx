@@ -17,11 +17,11 @@ function Footer(){
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <br />
                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <h5 className="text-info col-xs pt-1 col-lg pt-3">
-                <FontAwesomeIcon icon={faFacebookF} className="text-primary col-lg fs-3 pe-3 col-xs fs-6 pe-1"/>
-                <FontAwesomeIcon icon={faTwitter} className="text-primary col-lg fs-3 pe-3 col-xs fs-6 pe-1"/>
-                <FontAwesomeIcon icon={faLinkedinIn} className="text-primary col-lg fs-3 col-xs fs-6"/>
-                <FontAwesomeIcon icon={faInstagram} className="text-primary col-lg fs-3 ps-3 col-xs fs-6 ps-1"/>
-                <FontAwesomeIcon icon={faPinterestP} className="text-primary col-lg fs-3 ps-3 col-xs fs-6 ps-1"/>
+                <FontAwesomeIcon icon={faFacebookF} className="text-primary col-lg fs-3 pe-3 col-md fs-3 col-xs fs-6 pe-1"/>
+                <FontAwesomeIcon icon={faTwitter} className="text-primary col-lg fs-3 pe-3 ol-md fs-3 col-xs fs-6 pe-1"/>
+                <FontAwesomeIcon icon={faLinkedinIn} className="text-primary col-lg fs-3 col-md fs-3 col-xs fs-6"/>
+                <FontAwesomeIcon icon={faInstagram} className="text-primary col-lg fs-3 ps-3 col-md fs-3 col-xs fs-6 ps-1"/>
+                <FontAwesomeIcon icon={faPinterestP} className="text-primary col-lg fs-3 ps-3 col-md fs-3 col-xs fs-6 ps-1"/>
                 </h5>
                 <hr />
                 </blockquote>

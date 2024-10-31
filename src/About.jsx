@@ -9,10 +9,10 @@ function About() {
         <hr className='w-25' />
       </center>
         <div className="row col-xs pt-1 col-lg pt-5">
-        <div id='profile' className="col-xs-12 col-lg-5">
+        <div id='profile' className="col-xs-12 col-md-5 col-lg-5">
         <img src={profilePic} alt="Me" id='pr' style={{width:"75%", height:"550px"}}/>
         </div>
-        <div className="col-xs-12 py-2 col-lg-6">
+        <div className="col-xs-12 py-2 col-md-6 col-lg-6">
         <h3 className='col-lg display-3 text-info col-xs display-6'>I'm Karan Kumar</h3>
           <p className='col-xs pt-1 col-lg pt-3 text-secondary'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus assumenda,
              voluptas nostrum quasi eaque modi voluptatibus sed enim rem? Itaque veritatis eligendi, magnam
