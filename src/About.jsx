@@ -3,7 +3,7 @@ function About() {
 
   return (
     <div className='container-fluid position-relative col-xs pt-1 col-lg pt-5' id="about">
-      <center className='col-xs pt-1 col-lg pt-4'>
+      <center className='col-xs pt-1 col-lg pt-5'>
         <h3 className='display-3 text-primary'>About Me</h3>
         <h6 className="display-6 text-success col-xs fs-6 col-lg fs-3">Professional Profile - There Is All About Me</h6>
         <hr className='w-25' />

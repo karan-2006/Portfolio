@@ -3,7 +3,7 @@ function Header(){
     return(
 
          <header className="position-sticky fixed-top" data-spy="scroll" data-target="#navbarNavAltMarkup" data-offset="100">
-             <nav className="navbar navbar-dark navbar-expand-lg bg-gradient bg-opacity-75">
+             <nav className="navbar navbar-dark navbar-expand-lg bg-dark bg-opacity-25">
                  <div className="container-fluid">
                      <a className="navbar-brand text-danger" href="#"><h4 className="display-4"><b>KARAN KUMAR</b></h4></a>
                      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">

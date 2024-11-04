@@ -6,7 +6,7 @@ function Services() {
     return(
 
         <div className="container-fluid position-relative col-xs pt-1 col-lg pt-5" id="services">
-            <center className="pt-3">
+            <center className=" col-xs pt-3 col-lg pt-5">
                 <h3 className='display-3 text-primary'>My Services</h3>
                 <h6 className="display-6 text-success col-xs fs-6 col-lg fs-3">Lorem ipsum dolor sit amet</h6>
                 <hr className='w-25' />

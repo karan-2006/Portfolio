@@ -24,12 +24,13 @@ function Resume() {
     return(
 
         <div className="container-fluid position-relative pt-5 text-light" id="resume">
-        <center className='pt-3'>
+        <center className=' col-lg pt-5'>
         <h3 className="display-3 text-primary">My Resume</h3>
         <h6 className="display-6 text-success col-xs fs-6 col-lg fs-3">Lorem ipsum dolor sit amet</h6>
         <hr className="w-25"/>
         </center>
         <h4 className="border border-info text-info d-inline-block col-lg p-2 col-xs p-1 fs-6">EDUCATION</h4>
+        <div className="container-fluid">
         <div id="carouselExampleCaptions" className="carousel carousel-light slide" data-bs-ride="carousel">
           <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -64,6 +65,7 @@ function Resume() {
                  sed do eiusmod tempor incididunt ut labore et dolore magna</p>
             </div>
           </div>
+        </div>
         </div>
         </div>
 
@@ -133,13 +135,11 @@ function Resume() {
               <nav aria-label="...">
                   <ul className="pagination pagination-lg border border-secondary bg-dark">
                     <li id='icon' className="page-item">
-                    <FontAwesomeIcon icon={ faStar } className="text-danger pt-3"/>
-                    <FontAwesomeIcon icon={ faStar } size="xl" className="mt-4 text-danger pt-3"/>
-                    <FontAwesomeIcon icon={ faStar } className="text-danger pt-3"/>
+                    <FontAwesomeIcon icon={ faStar } size="xl" id='star' className="text-danger col-lg p-3 ms-2 mt-4 me-2"/>
                     </li>
                     <li className="page-item border-start border-secondary p-3">
                       <h5 className='text-warning'>{ratings}</h5>
-                      <p className="text-secondary col-lg pe-4">User Rattings</p>
+                      <p className="text-secondary col-xs pe-1 col-lg pe-4">User Rattings</p>
                     </li>
                   </ul>
                 </nav>

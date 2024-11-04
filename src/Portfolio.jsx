@@ -61,21 +61,21 @@ function Portfolio() {
 
   return (
     
-    <div className="container-fluid position-relative col-xs pt-1 col-lg pt-3" id="portfolio">
+    <div className="container-fluid position-relative col-xs pt-1 col-lg pt-5" id="portfolio">
         <center className=' col-xs pt-1 col-lg pt-5'>
             <h3 className="display-3 text-primary">Portfolio</h3>
             <h6 className="display-6 text-success col-xs fs-6 col-lg fs-3">See My Works - Lorem ipsum dolor</h6>
             <hr className="w-25" />
-            <div className="container-fluid col-xs d-flex ">
-                <button className='btn btn-outline-danger col-xs ms-1 my-1 col-lg ms-2 my-2' type="button" onClick={() => handleFilter('')}>ALL</button>
-                <button className='btn btn-outline-danger col-xs m-1 col-lg m-2' type="button" onClick={() => handleFilter('DESIGNING')}>DESIGNING</button>
-                <button className='btn btn-outline-danger col-xs me-1 my-1 col-lg me-2 my-2' type="button" onClick={() => handleFilter('WEBSITES')}>WEBSITES</button>
+            <div className="container" >
+                <button id='pbut' className='btn btn-outline-danger btn-xs ms-1 my-1 btn-lg ms-2 my-2' type="button" onClick={() => handleFilter('')}>ALL</button>
+                <button id='qbut' className='btn btn-outline-danger btn-xs m-1 btn-lg m-2' type="button" onClick={() => handleFilter('DESIGNING')}>DESIGNING</button>
+                <button id='rbut' className='btn btn-outline-danger btn-xs ms-1 my-1 btn-lg me-2 my-2' type="button" onClick={() => handleFilter('WEBSITES')}>WEBSITES</button>
             </div>
         </center>
         <div className="container-fluid">
             <div className="row">
                 {filteredProjects.map((project, index) => (
-                <div className="col-xs py-2 col-12 col-md col-3 col-lg col-3" key={index}>
+                <div className="col-xs-12 py-2 col-md-3 col-lg-3" key={index}>
                     <div className="card text-bg-dark" onClick={() => handleProjectClick(project)}>
                         <img src={project.image} style={{ width: '100%', height: '200px' }} id='project' className="card-img" alt={project.title} />
                         <div id='overlay' className="card-img-overlay bg-dark bg-opacity-75 col-xs m-2 m-2 w-75  col-lg w-75 h-75 mt-4 ms-5">
