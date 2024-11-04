@@ -40,7 +40,7 @@ function Resume() {
           <div className="carousel-inner">
             <div className="carousel-item active col-xs py-2 col-lg py-2">
             
-            <div className="card border border-secondary bg-dark text-light col-xs m-5 p-5 col-lg m-5 p-5">
+            <div className="card border border-secondary bg-dark text-light col-xs m-1 p-1 col-lg m-5 p-5">
                 <h4 className="card-title text-warning col-lg fs-5 col-xs fs-6">2016-2017</h4>
                 <h5 className="card-title col-lg fs-6 col-xs fs-6">SSLC - AVICHI Higher Seondary School</h5>
                 <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -49,7 +49,7 @@ function Resume() {
           </div>
           <div className="carousel-item col-xs py-2 col-lg py-2">
             
-            <div className="card border border-secondary bg-dark text-light col-xs m-5 p-5 col-lg m-5 p-5">
+            <div className="card border border-secondary bg-dark text-light col-xs m-1 p-1 col-lg m-5 p-5">
               <h4 className="card-title text-warning col-lg fs-5 col-xs fs-6">2018-2019</h4>
               <h5 className="card-title col-lg fs-6 col-xs fs-6">HSC - AVICHI Higher Seondary School</h5>
               <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -58,7 +58,7 @@ function Resume() {
           </div>
           <div className="carousel-item col-xs py-2 col-lg py-2">
 
-            <div className="card border border-secondary bg-dark text-light col-xs p-5 m-5 col-lg m-5 p-5">
+            <div className="card border border-secondary bg-dark text-light col-xs  m-1 p-1 col-lg m-5 p-5">
                 <h4 className="car-title text-warning col-lg fs-5 col-xs fs-6">2019-2023</h4>
                 <h5 className="card-title col-lg fs-6 col-xs fs-6">B.E - DMI College of Engineering</h5>
                 <p className="card-text text-secondary">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
